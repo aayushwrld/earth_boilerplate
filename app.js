@@ -23,7 +23,9 @@ consumptionVar.onclick=()=>{
     frame.src="https://www.theworldcounts.com/embed/challenges/107?background_color=transparent&color=white&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=20"
     saveText.innerHTML="Do your bit! Shop only what you need,eat only what you need and always save the leftovers."
     consumptionVar.style.background="#37C658"
-    consumptionVar.style.backgroundColor = ""
+    climateVar.style.background="transparent"
+    resourcesVar.style.background="transparent"
+    peopleVar.style.background="transparent"
 }
 
 climateVar.onclick=()=>{
@@ -31,7 +33,10 @@ climateVar.onclick=()=>{
     bodyvar.style.backgroundSize="100% 100%"
     saveText.innerHTML="Do your bit! Save trees, use renewable energy sources and prefer to travel green"
     climateVar.style.background="#3B83C8"
-    bodyvar.style.backgroundColor = '#ffffff'
+    consumptionVar.style.background="transparent"
+    resourcesVar.style.background="transparent"
+    peopleVar.style.background="transparent"
+
 }
 
 resourcesVar.onclick=()=>{
@@ -39,6 +44,9 @@ resourcesVar.onclick=()=>{
     bodyvar.style.backgroundSize="100% 100%"
     saveText.innerHTML="Do your bit! Avoid all things plastic. Believe in Reduce, Reuse and Recycle"
     resourcesVar.style.background="#E89F51"
+    climateVar.style.background="transparent"
+    consumptionVar.style.background="transparent"
+    peopleVar.style.background="transparent"
 }
 
 peopleVar.onclick=()=>{
@@ -46,4 +54,7 @@ peopleVar.onclick=()=>{
     bodyvar.style.backgroundSize="100% 100%"
     saveText.innerHTML="Do your bit! Never waste  food.Rather offer it to people or animals who are in need."
     peopleVar.style.background="#D94854"
+    climateVar.style.background="transparent"
+    resourcesVar.style.background="transparent"
+    resourcesVar.style.background="transparent"
 }
